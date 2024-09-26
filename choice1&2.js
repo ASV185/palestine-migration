@@ -71,7 +71,14 @@ function updateQuestion(event){
                         </div>
                         </form>
                     </div>
+                    <div>
+                        <a href="choice2question2.html">
+                            Next Question
+                            <img src="image/right-arrow.png" alt="right arrow leading to next question" class="img-fluid"> 
+                        </a>
+                    </div>
                 </div>
+              </div>
             </div>`; 
         }
         
