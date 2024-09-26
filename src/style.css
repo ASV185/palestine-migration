@@ -47,3 +47,19 @@ footer {
     font-variation-settings:"wdth" 100;
     font-size: 17px;
 }
+
+a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 19px;
+    color:black;
+}
+
+a:hover {
+    color:#1d6bf3;
+    text-decoration:underline;
+}
