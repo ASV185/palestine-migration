@@ -10,22 +10,21 @@ function updateQuestion(event){
           <div class="col-7">
           <div class="next-question">
             <div class="card-header m-3">
-                <h3>Choice 1 Question #1</h3>
+                <h3>Choice 1</h3>
                     Situation: The Israeli military imposes curfews and sets up checkpoints that restrict movement.
                     Your family needs food and medicine, but leaving your home is dangerous.
              </div>
             <div class="card-body m-3">
                 <form id="question-form">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="category" value="sneak" id="sneak">
                         <label class="form-check-label" for="sneak">
-                            Try to sneak past the checkpoint.
+                            Try to sneak past the checkpoint: You successfully obtain supplies but are caught on the way back, leading to imprisonment of a family member.
                         </label>
                     </div>
+                    <span>Or</span>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="category" value="curfew" id="curfew">
                         <label class="form-check-label" for="curfew">
-                            Wait until curfew is lifted
+                            Wait until curfew is lifted: Your family suffers from hunger and lack of medicine, but you avoid direct conflict with the military.
                         </label>
                     </div>
                 </form>
@@ -50,7 +49,7 @@ function updateQuestion(event){
                 <div class="light-card shadow p-4 mb-5 bg-body-tertiary rounded">
                     <div class="next-question">
                         <div class="card-header m-3">
-                            <h3>Choice 2 Question #1</h3>
+                            <h3>Choice 2</h3>
                             Situation: Your family begins the dangerous journey to Egypt, but the roads are filled
                             with military checkpoints and bandits. You must decide on a route.
                         </div>
@@ -58,15 +57,14 @@ function updateQuestion(event){
                     <div class="card-body m-3">
                         <form id="question-form">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" value="road" id="road">
                             <label class="form-check-label" for="road">
-                                Take the main road
+                                Take the main road: The journey is quicker but risks running into soldiers or bandits.
                             </label>
                         </div>
+                        <span>Or</span>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" value="route" id="route">
                             <label class="form-check-label" for="route">
-                                Take a longer, safer route
+                                Take a longer, safer route: The journey is slower, and resources run low, but you avoid direct confrontation.
                             </label>
                         </div>
                         </form>
