@@ -13,16 +13,16 @@ function getSelectedAnswer(event){
       alert("You find work, but your family faces discrimination and the constant threat of deportation. Consequence: Leaving the camp can provide better opportunities but risks legal and social issues in the host country.");
     }
     if (event.target.value === "seek") {
-      alert("You find better care but at a high cost, leading to significant financial strain.");
+      alert("You find better care but at a high cost, leading to significant financial strain. Consequence: Limited medical care in the camp can lead to the death of a family member, while seeking outside help could bankrupt the family.");
     }
     if (event.target.value === "rely") {
       alert("The care is minimal, and your family member's condition worsens. Consequence: Limited medical care in the camp can lead to the death of a family member, while seeking outside help could bankrupt the family.");
     }
     if (event.target.value === "school") {
-      alert("They receive an education but face severe bullying and discrimination. Consequence: Both options come with significant drawbacks, forcing you to weigh long-term outcomes against immediate safety. Consequence: Both options come with significant drawbacks, forcing you to weigh long-term outcomes against immediate safety.");
+      alert("They receive an education but face severe bullying and discrimination. Consequence: Both options come with significant drawbacks, forcing you to weigh long-term outcomes against immediate safety.");
     }
     if (event.target.value === "home") {
-      alert("They are safer but miss out on crucial education, limiting their future prospects.");
+      alert("They are safer but miss out on crucial education, limiting their future prospects. Consequence: Both options come with significant drawbacks, forcing you to weigh long-term outcomes against immediate safety.");
     }
     if (event.target.value === "return") {
       alert("The journey is perilous, and if unsuccessful, your family may be stranded without support. Consequence: Attempting to return to Palestine could end in tragedy, while staying in Egypt means accepting a life in exile.");
