@@ -6,13 +6,14 @@ function updateQuestion(event){
     secondQuestionElement.innerHTML += `
     <div class="container">
         <div class="light-card shadow p-4 mb-5 bg-body-tertiary rounded next-question">
-          <div class="row">
-          <div class="col-7">
           <div class="next-question">
             <div class="card-header m-3">
                 <h3>Choice 1</h3>
                     Situation: The Israeli military imposes curfews and sets up checkpoints that restrict movement.
                     Your family needs food and medicine, but leaving your home is dangerous.
+             </div>
+             <div>
+                <h3>Two Options:</h3>
              </div>
             <div class="card-body m-3">
                 <form id="question-form">
@@ -29,14 +30,12 @@ function updateQuestion(event){
                     </div>
                 </form>
             </div>
-           </div>
-           <div class="col-3">
+           <div>
                <a href="choice1question2.html">
                 Next Question
                 <img src="image/right-arrow.png" alt="right arrow leading to next question" class="img-fluid"> 
                </a>
            </div>
-          </div>
         </div>
     </div>`;
 
@@ -53,6 +52,9 @@ function updateQuestion(event){
                             Situation: Your family begins the dangerous journey to Egypt, but the roads are filled
                             with military checkpoints and bandits. You must decide on a route.
                         </div>
+                    </div>
+                    <div>
+                        <h3>Two Options:</h3>
                     </div>
                     <div class="card-body m-3">
                         <form id="question-form">
